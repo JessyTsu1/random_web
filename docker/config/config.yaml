@@ -1,0 +1,26 @@
+databases:
+  mongo:
+    connection:
+      external_host:
+      external_port:
+      qcloud_host:
+      qcloud_port:
+      user: ""
+      pwd: ""
+    database:
+      resource: "resource"
+      only_videos: "only_videos"
+    table:
+      spider_video: "spider_video"
+      download_info: "download_info"
+      search_by_query: "search_by_query"
+      search_by_video: "search_by_video"
+      query2duration: "query_to_duration"
+      selenuim_videos: "selenuim_videos"
+      batch_videos: "batch_videos"
+
+redis:
+  auth: ""
+  host: ""
+  port: ""
+  video_process_queue_timeout: '12h'
